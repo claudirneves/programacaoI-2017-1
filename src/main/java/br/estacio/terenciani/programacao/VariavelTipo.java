@@ -15,12 +15,18 @@ public class VariavelTipo {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        imprime();
+        int x = 10;
+        int y = 4;
+        int resultado;
+       // imprime();
+        resultado = multiplica(x,y);
+        System.out.printf("O resultado é: \n%d" ,resultado);
         
-        System.out.println("Estou Brincando de Funções");
-        
-        imprime();
+        //imprime();
     
+    }
+    public static int multiplica(int x, int y){
+        return x * y;
     }
     public static void imprime (){
         System.out.println("-----");
